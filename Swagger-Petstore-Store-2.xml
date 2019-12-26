@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="Swagger-Petstore-Store-2">
+    <Basepaths>/v2/swagger-petstore-store-2</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1560746396521</CreatedAt>
+    <CreatedBy>verma.govind92@gmail.com</CreatedBy>
+    <Description>This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters.</Description>
+    <DisplayName>Swagger-Petstore-Store-2</DisplayName>
+    <LastModifiedAt>1560747673422</LastModifiedAt>
+    <LastModifiedBy>verma.govind92@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:72ed672e2c1f313ee64c05cd6b21089ba5e844e9aa5c9a9eb1d57fe3f2f16429f0849648c6b834a2d4bfd46f8a4d0a01cd8a1fd013be998a2e253285104ff2e8</ManifestVersion>
+    <Policies>
+        <Policy>XML-to-JSON-1</Policy>
+        <Policy>impose-quota</Policy>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
